@@ -20,10 +20,10 @@ logging:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:10086/eureka/
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:10086/eureka/
 userservice:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # 负载均衡规则
