@@ -15,7 +15,7 @@ import java.time.format.DateTimeFormatter;
 @Slf4j
 @RestController
 @RequestMapping("/user")
-@RefreshScope
+//@RefreshScope
 public class UserController {
 
     @Autowired
