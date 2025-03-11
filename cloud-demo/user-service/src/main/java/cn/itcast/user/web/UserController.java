@@ -24,11 +24,16 @@ public class UserController {
 //    private String dateformat;
 
     @Autowired
-    private PatternProperties patternProperties;
+    private PatternProperties properties;
+
+    @GetMapping("prop")
+    public PatternProperties properties(){
+        return properties;
+    }
 
     @GetMapping("now")
     public String now(){
-        return LocalDateTime.now().format(DateTimeFormatter.ofPattern(patternProperties.getDateformat()));
+        return LocalDateTime.now().format(DateTimeFormatter.ofPattern(properties.getDateformat()));
     }
 
     /**
