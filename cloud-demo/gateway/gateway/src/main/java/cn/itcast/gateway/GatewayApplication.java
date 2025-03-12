@@ -1,4 +1,4 @@
-package cn.itcast;
+package cn.itcast.gateway;
 
 
 import org.springframework.boot.SpringApplication;
