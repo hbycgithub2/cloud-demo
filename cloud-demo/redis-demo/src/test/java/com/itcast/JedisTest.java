@@ -1,3 +1,4 @@
+package com.itcast;
 
 import cn.itcast.demo.cn.itcast.redis.util.JedisConnectionFactory;
 import org.junit.jupiter.api.AfterEach;
