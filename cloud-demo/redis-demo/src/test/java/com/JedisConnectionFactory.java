@@ -1,4 +1,4 @@
-package cn.itcast.demo.cn.itcast.redis.util;
+package com;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
