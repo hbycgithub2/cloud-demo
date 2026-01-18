@@ -73,6 +73,17 @@
             <artifactId>lombok</artifactId>
             <version>1.18.32</version>
         </dependency>
+        <!-- Sleuth 链路追踪 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+        </dependency>
+        <!-- p6spy SQL日志 -->
+        <dependency>
+            <groupId>p6spy</groupId>
+            <artifactId>p6spy</artifactId>
+            <version>3.9.1</version>
+        </dependency>
         <!-- jedis客户端依赖-->
          <dependency>
              <groupId>redis.clients</groupId>
