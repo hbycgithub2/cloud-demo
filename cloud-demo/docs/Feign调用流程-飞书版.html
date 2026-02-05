@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.8;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            color: #1f2329;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e8e8e8;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 22px;
+            color: #1f2329;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 18px;
+            color: #3370ff;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .step {
+            background: #f7f8fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #3370ff;
+        }
+        .step-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1f2329;
+            margin-bottom: 12px;
+        }
+        .step-content {
+            margin-left: 20px;
+        }
+        .step-content li {
+            margin-bottom: 8px;
+            color: #646a73;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #856404;
+        }
+        .divider {
+            border-top: 2px dashed #e8e8e8;
+            margin: 40px 0;
+        }
+        .summary-box {
+            background: #e8f4ff;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border-left: 4px solid #3370ff;
+        }
+        .key-point {
+            background: #fff9e6;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #faad14;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li:before {
+            content: "• ";
+            color: #3370ff;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .analogy {
+            background: #f0f9ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>📞 调用时流程</h1>
+
+    <div class="step">
+        <div class="step-title">第 1 步：拦截</div>
+        <div class="step-content">
+            <ul>
+                <li>代理对象拦截这次调用</li>
+                <li>看自己记的信息：
+                    <ul style="margin-left: 20px;">
+                        <li>服务名：<span class="highlight">userservice</span></li>
+                        <li>方法：<span class="highlight">GET /user/{id}</span></li>
+                        <li>参数：<span class="highlight">id = 1</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-title">第 2 步：组装</div>
+        <div class="step-content">
+            <ul>
+                <li>组装成：<span class="highlight">GET /user/1</span> 到 <span class="highlight">userservice</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-title">第 3 步：查地址</div>
+        <div class="step-content">
+            <ul>
+                <li>从缓存查 <span class="highlight">userservice</span> 的地址</li>
+                <li>得到：<span class="highlight">[192.168.26.1:8081, 192.168.26.2:8081]</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-title">第 4 步：选地址</div>
+        <div class="step-content">
+            <ul>
+                <li>Ribbon 负载均衡轮询选一个</li>
+                <li>这次选：<span class="highlight">192.168.26.1:8081</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-title">第 5 步：发请求</div>
+        <div class="step-content">
+            <ul>
+                <li>拼完整 URL：<span class="highlight">http://192.168.26.1:8081/user/1</span></li>
+                <li>发 HTTP 请求：<span class="highlight">GET http://192.168.26.1:8081/user/1</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-title">第 6 步：收响应</div>
+        <div class="step-content">
+            <ul>
+                <li>UserService 查数据库返回 JSON</li>
+                <li>收到：<span class="highlight">{"id":1,"username":"柳岩","address":"湖南长沙"}</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step">
+        <div class="step-title">第 7 步：转对象</div>
+        <div class="step-content">
+            <ul>
+                <li>Jackson 把 JSON 转成 User 对象</li>
+                <li>返回：<span class="highlight">User(id=1, username="柳岩")</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>💡 核心理解</h2>
+
+    <div class="analogy">
+        <h3>代理对象 = 一部手机</h3>
+        <ul>
+            <li><strong>启动时</strong>：手机通讯录存好"张三 → 138xxxx"</li>
+            <li><strong>注入时</strong>：把手机拿出来给你</li>
+            <li><strong>调用时</strong>：你按"张三"，手机自动拨号、通话、挂机</li>
+        </ul>
+    </div>
+
+    <div class="key-point">
+        <h3>🔑 关键点</h3>
+        <p><strong>代理对象启动时就记住了所有信息，调用时直接用，不用再去找接口和注解。</strong></p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="summary-box">
+        <h2>🎯 一句话总结</h2>
+        <p style="font-size: 18px; line-height: 1.8;">
+            <strong>Spring 启动时为接口生成代理对象并记住注解信息，注入时把代理对象给你，调用时代理对象看自己记的信息发 HTTP 请求拿结果。</strong>
+        </p>
+    </div>
+</body>
+</html>

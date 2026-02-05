@@ -14,10 +14,14 @@ import reactor.core.publisher.Mono;
 import java.lang.annotation.Annotation;
 
 //@Order(-1 )
-@Component
+//@Component  // 注释掉，禁用鉴权过滤器
 public class AuthorizeFilter implements GlobalFilter, Order {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
+        // 临时放行所有请求，方便测试
+        return chain.filter(exchange);
+        
+        /* 原来的鉴权逻辑
         // 1.获取请求参数
         ServerHttpRequest request = exchange.getRequest();
         MultiValueMap<String, String> params = request.getQueryParams();
@@ -33,6 +37,7 @@ public class AuthorizeFilter implements GlobalFilter, Order {
         exchange.getResponse().setStatusCode(HttpStatus.UNAUTHORIZED);
         //5.2 拦截请求
         return exchange.getResponse().setComplete();
+        */
     }
 
     //过虑器执行顺序，值越小越优先执行

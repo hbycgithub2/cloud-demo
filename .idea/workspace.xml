@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29633c72-8e8b-483e-bc6a-e291b9435965" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cloud-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editorJumperProjectSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.windsurfrules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/HikariCP实战指南.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/HikariCP连接池详解.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/Nacos-DataID自动定位原理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/Nacos配置管理说明.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/OrderService服务说明.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/大厂数据库连接池选型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/微服务调用完整流程-说人话版.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-demo/gateway/gateway/src/main/java/cn/itcast/gateway/AuthorizeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/gateway/gateway/src/main/java/cn/itcast/gateway/AuthorizeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-demo/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="62cf4d5ee736851c4f4acf83716c2df23c7c69e1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hbycgithub2&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hbycgithub2/cloud-demo.git&quot;,
+    &quot;accountId&quot;: &quot;7f930032-5d86-4c3a-b733-6fd15892964a&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:/gis/maven/apache-maven-3.9.4" />
+        <option name="localRepository" value="E:\gis\maven\strategytestRep3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\gis\maven\apache-maven-3.9.4\conf\testSettings3.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2uTLKGsop9RJIwA5pozuqTTgqFn" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CalculateApplication.executor": "Run",
+    "Spring Boot.EurekaApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.OrderApplication.executor": "Run",
+    "Spring Boot.UserApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/code/cloud-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "af91aec3561458df80cd954946db8488",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\cloud-demo\cloud-demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itcast" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CalculateApplication">
+    <configuration name="RedisDemoApplicationTests.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itcast" />
+      <option name="MAIN_CLASS_NAME" value="com.itcast.RedisDemoApplicationTests" />
+      <option name="METHOD_NAME" value="testSaveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisStringTests.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itcast" />
+      <option name="MAIN_CLASS_NAME" value="com.itcast.RedisStringTests" />
+      <option name="METHOD_NAME" value="testHash" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisStringTests.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itcast" />
+      <option name="MAIN_CLASS_NAME" value="com.itcast.RedisStringTests" />
+      <option name="METHOD_NAME" value="testSaveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="calculate-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.calculate.CalculateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.euereka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="publisher" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.publisher.PublisherApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RedisDemoApplicationTests.testSaveUser" />
+      <item itemvalue="JUnit.RedisStringTests.testHash" />
+      <item itemvalue="JUnit.RedisStringTests.testSaveUser" />
+      <item itemvalue="Spring Boot.CalculateApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.PublisherApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="JUnit.RedisStringTests.testHash" />
+        <item itemvalue="JUnit.RedisStringTests.testSaveUser" />
+        <item itemvalue="JUnit.RedisDemoApplicationTests.testSaveUser" />
+        <item itemvalue="Spring Boot.PublisherApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29633c72-8e8b-483e-bc6a-e291b9435965" name="Changes" comment="" />
+      <created>1742267552796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742267552796</updated>
+      <workItem from="1742267554130" duration="10509000" />
+      <workItem from="1742291658742" duration="1084000" />
+      <workItem from="1742292846691" duration="7000" />
+      <workItem from="1742966527148" duration="11000" />
+      <workItem from="1743055163792" duration="2162000" />
+      <workItem from="1746254822844" duration="3223000" />
+      <workItem from="1747488898448" duration="10000" />
+      <workItem from="1768309769186" duration="4068000" />
+      <workItem from="1768712656053" duration="984000" />
+      <workItem from="1768713907778" duration="21149000" />
+      <workItem from="1768783870139" duration="2869000" />
+      <workItem from="1768791935700" duration="15260000" />
+      <workItem from="1768837089272" duration="37000" />
+      <workItem from="1768871254213" duration="2786000" />
+      <workItem from="1768957557520" duration="1497000" />
+      <workItem from="1769003559294" duration="4984000" />
+      <workItem from="1769042670476" duration="18232000" />
+      <workItem from="1769129541011" duration="11790000" />
+      <workItem from="1769431963048" duration="735000" />
+      <workItem from="1769474792429" duration="138000" />
+      <workItem from="1769569934371" duration="2119000" />
+      <workItem from="1770265403805" duration="507000" />
+      <workItem from="1770273306350" duration="1380000" />
+    </task>
+    <task id="LOCAL-00001" summary="Jedis_5#JedisRedisTemplate的序列化方式">
+      <option name="closed" value="true" />
+      <created>1742272437236</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742272437236</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Jedis_5#JedisRedisTemplate的序列化方式">
+      <option name="closed" value="true" />
+      <created>1742273877853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742273877853</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Jedis_5#JedisRedisTemplate的序列化方式2">
+      <option name="closed" value="true" />
+      <created>1742275162782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742275162782</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Jedis_6#StringRedisTemplate的序列化方式">
+      <option name="closed" value="true" />
+      <created>1742276985022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742276985022</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: 配置 SQL 日志优化（p6spy + Sleuth）&#10;&#10;- 添加 p6spy 3.9.1 和 spring-cloud-starter-sleuth 依赖&#10;- 修改数据源驱动为 P6SpyDriver&#10;- 配置完整 SQL 输出（参数已替换，可直接执行）&#10;- 添加 TraceId/SpanId 分布式追踪支持&#10;- 关闭 MyBatis 默认 DEBUG 日志&#10;- 更新 .gitignore 忽略 *.sql 文件&#10;&#10;影响范围: user-service, order-service">
+      <option name="closed" value="true" />
+      <created>1768739371654</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768739371654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Jedis_5#JedisRedisTemplate的序列化方式" />
+    <MESSAGE value="Jedis_5#JedisRedisTemplate的序列化方式2" />
+    <MESSAGE value="Remove target files from git tracking" />
+    <MESSAGE value="Jedis_6#StringRedisTemplate的序列化方式" />
+    <MESSAGE value="chore: 配置 SQL 日志优化（p6spy + Sleuth）&#10;&#10;- 添加 p6spy 3.9.1 和 spring-cloud-starter-sleuth 依赖&#10;- 修改数据源驱动为 P6SpyDriver&#10;- 配置完整 SQL 输出（参数已替换，可直接执行）&#10;- 添加 TraceId/SpanId 分布式追踪支持&#10;- 关闭 MyBatis 默认 DEBUG 日志&#10;- 更新 .gitignore 忽略 *.sql 文件&#10;&#10;影响范围: user-service, order-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: 配置 SQL 日志优化（p6spy + Sleuth）&#10;&#10;- 添加 p6spy 3.9.1 和 spring-cloud-starter-sleuth 依赖&#10;- 修改数据源驱动为 P6SpyDriver&#10;- 配置完整 SQL 输出（参数已替换，可直接执行）&#10;- 添加 TraceId/SpanId 分布式追踪支持&#10;- 关闭 MyBatis 默认 DEBUG 日志&#10;- 更新 .gitignore 忽略 *.sql 文件&#10;&#10;影响范围: user-service, order-service" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-demo/user-service/src/main/java/cn/itcast/user/web/UserController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-demo/user-service/src/main/java/cn/itcast/user/service/UserService.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-demo/gateway/gateway/src/main/java/cn/itcast/demo/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-demo/user-service/src/main/java/cn/itcast/user/config/PatternProperties.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

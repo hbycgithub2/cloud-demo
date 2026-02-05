@@ -12,6 +12,7 @@
         <module>order-service</module>
         <module>gateway/gateway</module>
         <module>redis-demo</module>
+        <module>calculate-service</module>
     </modules>
 
     <packaging>pom</packaging>

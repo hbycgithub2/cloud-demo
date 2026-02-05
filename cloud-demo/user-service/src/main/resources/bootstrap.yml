@@ -7,8 +7,9 @@ spring:
     nacos:
       server-addr: localhost:8848 #nacos 地址
       config:
-        enabled: false # 临时禁用 Nacos 配置中心
+        enabled: true # 启用 Nacos 配置中心
         file-extension: yaml #文件缀名
+        namespace: 49dec1bd-3857-4c14-935c-ac8884e91101 # dev 环境命名空间
       discovery:
         cluster-name: SH #集群名称，这里SH指上海
         #cluster-name: HZ #集群名称，这里HZ指杭州
