@@ -4,6 +4,26 @@ server:
 spring:
   application:
     name: calculate-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/calculate_db?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: cn.itcast.calculate.entity
+  configuration:
+    map-underscore-to-camel-case: true
+
+# 算费线程池配置
+calculate:
+  thread-pool:
+    core-pool-size: 10      # 核心线程数
+    max-pool-size: 20       # 最大线程数
+    queue-capacity: 100     # 队列容量
+    keep-alive-seconds: 60  # 线程空闲时间（秒）
+    thread-name-prefix: calculate-  # 线程名称前缀
 
 logging:
   level:

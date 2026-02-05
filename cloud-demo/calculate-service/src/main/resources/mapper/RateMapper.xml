@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.calculate.mapper.RateMapper">
+    
+    <!-- 查询费率 -->
+    <select id="queryRate" resultType="cn.itcast.calculate.entity.Rate">
+        SELECT 
+            kind_code,
+            car_model,
+            area_code,
+            rate
+        FROM rate_table 
+        WHERE kind_code = #{kindCode} 
+          AND car_model = #{carModel} 
+          AND area_code = #{areaCode}
+    </select>
+    
+</mapper>

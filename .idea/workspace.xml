@@ -5,32 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29633c72-8e8b-483e-bc6a-e291b9435965" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/cloud-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/editorJumperProjectSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.windsurfrules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/HikariCP实战指南.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/HikariCP连接池详解.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/Nacos-DataID自动定位原理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/Nacos配置管理说明.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/OrderService服务说明.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/大厂数据库连接池选型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/微服务调用完整流程-说人话版.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/gateway/gateway/src/main/java/cn/itcast/gateway/AuthorizeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/gateway/gateway/src/main/java/cn/itcast/gateway/AuthorizeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/config/ThreadPoolProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/entity/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/entity/Ncd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/entity/Rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/mapper/DiscountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/mapper/NcdMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/mapper/RateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/service/CalculateAsyncService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/mapper/DiscountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/mapper/NcdMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/mapper/RateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/test/java/cn/itcast/calculate/service/CalculateServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/CalculateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/CalculateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/controller/CalculateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/controller/CalculateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/service/CalculateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/service/CalculateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +80,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CalculateServiceTest.testParallelCalculate.executor": "Run",
+    "JUnit.CalculateServiceTest.testPerformanceComparison.executor": "Run",
+    "JUnit.CalculateServiceTest.testSerialCalculate.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -111,7 +107,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "af91aec3561458df80cd954946db8488",
     "vue.rearranger.settings.migration": "true"
   }
@@ -137,18 +133,50 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CalculateApplication">
-    <configuration name="RedisDemoApplicationTests.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-demo" />
+  <component name="RunManager" selected="JUnit.CalculateServiceTest.testPerformanceComparison">
+    <configuration name="CalculateServiceTest.testParallelCalculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculate-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itcast.*" />
+          <option name="PATTERN" value="cn.itcast.calculate.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.itcast" />
-      <option name="MAIN_CLASS_NAME" value="com.itcast.RedisDemoApplicationTests" />
-      <option name="METHOD_NAME" value="testSaveUser" />
+      <option name="PACKAGE_NAME" value="cn.itcast.calculate.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.calculate.service.CalculateServiceTest" />
+      <option name="METHOD_NAME" value="testParallelCalculate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateServiceTest.testPerformanceComparison" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculate-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.calculate.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.calculate.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.calculate.service.CalculateServiceTest" />
+      <option name="METHOD_NAME" value="testPerformanceComparison" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateServiceTest.testSerialCalculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculate-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.calculate.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.calculate.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.calculate.service.CalculateServiceTest" />
+      <option name="METHOD_NAME" value="testSerialCalculate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,22 +193,6 @@
       <option name="PACKAGE_NAME" value="com.itcast" />
       <option name="MAIN_CLASS_NAME" value="com.itcast.RedisStringTests" />
       <option name="METHOD_NAME" value="testHash" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisStringTests.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itcast" />
-      <option name="MAIN_CLASS_NAME" value="com.itcast.RedisStringTests" />
-      <option name="METHOD_NAME" value="testSaveUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,19 +232,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublisherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="publisher" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.publisher.PublisherApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.publisher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.user.UserApplication" />
@@ -241,23 +240,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RedisDemoApplicationTests.testSaveUser" />
+      <item itemvalue="JUnit.CalculateServiceTest.testPerformanceComparison" />
+      <item itemvalue="JUnit.CalculateServiceTest.testParallelCalculate" />
+      <item itemvalue="JUnit.CalculateServiceTest.testSerialCalculate" />
       <item itemvalue="JUnit.RedisStringTests.testHash" />
-      <item itemvalue="JUnit.RedisStringTests.testSaveUser" />
       <item itemvalue="Spring Boot.CalculateApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Spring Boot.PublisherApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculateServiceTest.testPerformanceComparison" />
+        <item itemvalue="JUnit.CalculateServiceTest.testParallelCalculate" />
+        <item itemvalue="JUnit.CalculateServiceTest.testSerialCalculate" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="JUnit.RedisStringTests.testHash" />
-        <item itemvalue="JUnit.RedisStringTests.testSaveUser" />
-        <item itemvalue="JUnit.RedisDemoApplicationTests.testSaveUser" />
-        <item itemvalue="Spring Boot.PublisherApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +298,8 @@
       <workItem from="1769474792429" duration="138000" />
       <workItem from="1769569934371" duration="2119000" />
       <workItem from="1770265403805" duration="507000" />
-      <workItem from="1770273306350" duration="1380000" />
+      <workItem from="1770273306350" duration="5799000" />
+      <workItem from="1770279787454" duration="3137000" />
     </task>
     <task id="LOCAL-00001" summary="Jedis_5#JedisRedisTemplate的序列化方式">
       <option name="closed" value="true" />

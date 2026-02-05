@@ -1,5 +1,6 @@
 package cn.itcast.calculate;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2026-02-05
  */
 @SpringBootApplication
+@MapperScan("cn.itcast.calculate.mapper")
 public class CalculateApplication {
     
     public static void main(String[] args) {

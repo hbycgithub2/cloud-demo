@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.calculate.mapper.DiscountMapper">
+    
+    <!-- 查询折扣系数 -->
+    <select id="queryDiscount" resultType="cn.itcast.calculate.entity.Discount">
+        SELECT 
+            channel,
+            area_code,
+            discount
+        FROM discount_table 
+        WHERE channel = #{channel} 
+          AND area_code = #{areaCode}
+    </select>
+    
+</mapper>
