@@ -7,16 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rocketmq-consumer" />
         <module name="rocketmq-producer" />
         <module name="calculate-service" />
-        <module name="order-service" />
+        <module name="seckill-service" />
         <module name="redis-demo" />
         <module name="user-service" />
         <module name="rocketmq-common" />
         <module name="eureka-server" />
-        <module name="gateway" />
         <module name="feign-api" />
+        <module name="seckill-consumer" />
+        <module name="rocketmq-consumer" />
+        <module name="seckill-common" />
+        <module name="order-service" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +40,9 @@
       <module name="rocketmq-common" options="-parameters" />
       <module name="rocketmq-consumer" options="-parameters" />
       <module name="rocketmq-producer" options="-parameters" />
+      <module name="seckill-common" options="-parameters" />
+      <module name="seckill-consumer" options="-parameters" />
+      <module name="seckill-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

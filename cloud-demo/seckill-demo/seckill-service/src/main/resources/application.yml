@@ -1,0 +1,48 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: seckill-service
+  
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud_seckill?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+  
+  # Redis配置
+  redis:
+    host: localhost
+    port: 6379
+    password: 
+    database: 0
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 1000ms
+
+# RocketMQ配置
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: seckill-producer
+    send-message-timeout: 3000
+
+# MyBatis配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: cn.itcast.seckill.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 日志配置
+logging:
+  level:
+    cn.itcast.seckill: debug
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{50} - %msg%n'

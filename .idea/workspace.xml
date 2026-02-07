@@ -4,26 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29633c72-8e8b-483e-bc6a-e291b9435965" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/config/ThreadPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/config/ThreadPoolProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/entity/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/entity/Ncd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/entity/Rate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/mapper/DiscountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/mapper/NcdMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/mapper/RateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/service/CalculateAsyncService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/mapper/DiscountMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/mapper/NcdMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/mapper/RateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/test/java/cn/itcast/calculate/service/CalculateServiceTest.java" afterDir="false" />
+    <list default="true" id="29633c72-8e8b-483e-bc6a-e291b9435965" name="Changes" comment="feat: RocketMQ 文档">
+      <change afterPath="$PROJECT_DIR$/IDEA编译设置.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/docs/SpringCloud/RocketMQ/redis秒杀.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-common/src/main/java/cn/itcast/seckill/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-common/src/main/java/cn/itcast/seckill/pojo/SeckillDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-common/src/main/java/cn/itcast/seckill/pojo/SeckillOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-common/src/main/java/cn/itcast/seckill/pojo/SeckillProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/src/main/java/cn/itcast/seckill/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/src/main/java/cn/itcast/seckill/consumer/listener/SeckillOrderConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/src/main/java/cn/itcast/seckill/consumer/mapper/SeckillOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/src/main/java/cn/itcast/seckill/consumer/mapper/SeckillProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/src/main/java/cn/itcast/seckill/consumer/mapper/StockLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/src/main/java/cn/itcast/seckill/consumer/mapper/UserSeckillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/src/main/resources/mapper/SeckillProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-consumer/src/main/resources/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/src/main/java/cn/itcast/seckill/SeckillServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/src/main/java/cn/itcast/seckill/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/src/main/java/cn/itcast/seckill/controller/SeckillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/src/main/java/cn/itcast/seckill/mapper/SeckillProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/src/main/java/cn/itcast/seckill/service/SeckillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/src/main/resources/lua/stock.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/src/main/resources/mapper/SeckillProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/seckill-service/src/main/resources/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/压测脚本.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/命令行编译启动.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/实际测试指南.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/快速启动脚本.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/快速测试指南.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/查找Redis安装位置.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/测试脚本.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/环境检查和修复.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/编译项目.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-demo/seckill-demo/项目完整性检查报告.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/CalculateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/CalculateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/controller/CalculateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/controller/CalculateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/service/CalculateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/java/cn/itcast/calculate/service/CalculateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/calculate-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +93,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -83,6 +112,15 @@
     "JUnit.CalculateServiceTest.testParallelCalculate.executor": "Run",
     "JUnit.CalculateServiceTest.testPerformanceComparison.executor": "Run",
     "JUnit.CalculateServiceTest.testSerialCalculate.executor": "Run",
+    "Maven.cloud-demo [clean].executor": "Run",
+    "Maven.cloud-demo [install].executor": "Run",
+    "Maven.seckill-common [clean].executor": "Run",
+    "Maven.seckill-common [install].executor": "Run",
+    "Maven.seckill-consumer [install].executor": "Run",
+    "Maven.seckill-demo [clean].executor": "Run",
+    "Maven.seckill-demo [install].executor": "Run",
+    "Maven.seckill-service [clean].executor": "Run",
+    "Maven.seckill-service [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -91,9 +129,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.CalculateApplication.executor": "Run",
+    "Spring Boot.ConsumerApplication (1).executor": "Run",
     "Spring Boot.EurekaApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.OrderApplication.executor": "Run",
+    "Spring Boot.SeckillServiceApplication.executor": "Run",
     "Spring Boot.UserApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
@@ -107,7 +147,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "spring.configuration.checksum": "af91aec3561458df80cd954946db8488",
     "vue.rearranger.settings.migration": "true"
   }
@@ -133,7 +173,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculateServiceTest.testPerformanceComparison">
+  <component name="RunManager" selected="Spring Boot.SeckillServiceApplication">
     <configuration name="CalculateServiceTest.testParallelCalculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculate-service" />
       <extension name="coverage">
@@ -182,25 +222,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisStringTests.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itcast" />
-      <option name="MAIN_CLASS_NAME" value="com.itcast.RedisStringTests" />
-      <option name="METHOD_NAME" value="testHash" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="CalculateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="calculate-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.calculate.CalculateApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="calculate-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.calculate.CalculateApplication" />
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seckill-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.seckill.consumer.ConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.seckill.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rocketmq-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.rocketmq.consumer.ConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,22 +256,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.gateway.GatewayApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.gateway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.order.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="order-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.order.OrderApplication" />
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rocketmq-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.rocketmq.producer.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seckill-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.seckill.SeckillServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.seckill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,20 +294,22 @@
       <item itemvalue="JUnit.CalculateServiceTest.testPerformanceComparison" />
       <item itemvalue="JUnit.CalculateServiceTest.testParallelCalculate" />
       <item itemvalue="JUnit.CalculateServiceTest.testSerialCalculate" />
-      <item itemvalue="JUnit.RedisStringTests.testHash" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ProducerApplication" />
       <item itemvalue="Spring Boot.CalculateApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication (1)" />
+      <item itemvalue="Spring Boot.SeckillServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SeckillServiceApplication" />
+        <item itemvalue="Spring Boot.ConsumerApplication (1)" />
         <item itemvalue="JUnit.CalculateServiceTest.testPerformanceComparison" />
         <item itemvalue="JUnit.CalculateServiceTest.testParallelCalculate" />
         <item itemvalue="JUnit.CalculateServiceTest.testSerialCalculate" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="JUnit.RedisStringTests.testHash" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +353,10 @@
       <workItem from="1770265403805" duration="507000" />
       <workItem from="1770273306350" duration="5799000" />
       <workItem from="1770279787454" duration="3137000" />
+      <workItem from="1770485370398" duration="69000" />
+      <workItem from="1770485921351" duration="669000" />
+      <workItem from="1770486609285" duration="1073000" />
+      <workItem from="1770487703036" duration="1259000" />
     </task>
     <task id="LOCAL-00001" summary="Jedis_5#JedisRedisTemplate的序列化方式">
       <option name="closed" value="true" />
@@ -341,7 +398,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768739371654</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 完成RocketMQ Demo项目开发与测试&#10;&#10;【新增功能】&#10;1. RocketMQ Demo完整项目（3个模块）&#10;2. 实现6大核心功能（普通/延迟/事务/顺序/批量/过滤消息）&#10;3. 数据库设计（5张表+完整测试数据）&#10;4. 配置文件（P6Spy+RocketMQ+数据库）&#10;5. 文档完善（安装指南+测试指南+Postman集合）&#10;&#10;✅ 场景1: 普通消息测试通过（订单+短信）&#10;✅ 场景2: 延迟消息测试通过（订单已创建）&#10;✅ 场景3: 事务消息测试通过（订单+库存一致性）&#10;✅ 场景4: 顺序消息测试通过（状态按序变更）&#10;✅ 场景5: 批量消息测试通过（10张优惠券）&#10;✅ 场景6: 消息过滤测试通过（VIP TAG过滤）&#10;&#10;&#10;【测试结果】&#10;✅ 6个场景全部测试通过&#10;✅ 数据一致性验证通过&#10;✅ 消息发送/消费正常&quot;">
+      <option name="closed" value="true" />
+      <created>1770480162270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770480162271</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: RocketMQ 文档">
+      <option name="closed" value="true" />
+      <created>1770482161337</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770482161337</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +449,9 @@
     <MESSAGE value="Remove target files from git tracking" />
     <MESSAGE value="Jedis_6#StringRedisTemplate的序列化方式" />
     <MESSAGE value="chore: 配置 SQL 日志优化（p6spy + Sleuth）&#10;&#10;- 添加 p6spy 3.9.1 和 spring-cloud-starter-sleuth 依赖&#10;- 修改数据源驱动为 P6SpyDriver&#10;- 配置完整 SQL 输出（参数已替换，可直接执行）&#10;- 添加 TraceId/SpanId 分布式追踪支持&#10;- 关闭 MyBatis 默认 DEBUG 日志&#10;- 更新 .gitignore 忽略 *.sql 文件&#10;&#10;影响范围: user-service, order-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: 配置 SQL 日志优化（p6spy + Sleuth）&#10;&#10;- 添加 p6spy 3.9.1 和 spring-cloud-starter-sleuth 依赖&#10;- 修改数据源驱动为 P6SpyDriver&#10;- 配置完整 SQL 输出（参数已替换，可直接执行）&#10;- 添加 TraceId/SpanId 分布式追踪支持&#10;- 关闭 MyBatis 默认 DEBUG 日志&#10;- 更新 .gitignore 忽略 *.sql 文件&#10;&#10;影响范围: user-service, order-service" />
+    <MESSAGE value="feat: 完成RocketMQ Demo项目开发与测试&#10;&#10;【新增功能】&#10;1. RocketMQ Demo完整项目（3个模块）&#10;2. 实现6大核心功能（普通/延迟/事务/顺序/批量/过滤消息）&#10;3. 数据库设计（5张表+完整测试数据）&#10;4. 配置文件（P6Spy+RocketMQ+数据库）&#10;5. 文档完善（安装指南+测试指南+Postman集合）&#10;&#10;✅ 场景1: 普通消息测试通过（订单+短信）&#10;✅ 场景2: 延迟消息测试通过（订单已创建）&#10;✅ 场景3: 事务消息测试通过（订单+库存一致性）&#10;✅ 场景4: 顺序消息测试通过（状态按序变更）&#10;✅ 场景5: 批量消息测试通过（10张优惠券）&#10;✅ 场景6: 消息过滤测试通过（VIP TAG过滤）&#10;&#10;&#10;【测试结果】&#10;✅ 6个场景全部测试通过&#10;✅ 数据一致性验证通过&#10;✅ 消息发送/消费正常&quot;" />
+    <MESSAGE value="feat: RocketMQ 文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: RocketMQ 文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

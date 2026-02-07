@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.seckill.consumer.mapper.SeckillProductMapper">
+
+    <!-- 扣减库存（乐观锁） -->
+    <update id="reduceStock">
+        UPDATE tb_seckill_product
+        SET stock = stock - #{quantity},
+            version = version + 1
+        WHERE id = #{productId}
+          AND stock >= #{quantity}
+          AND version = (SELECT version FROM (SELECT version FROM tb_seckill_product WHERE id = #{productId}) AS temp)
+    </update>
+
+</mapper>
