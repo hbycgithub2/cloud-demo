@@ -1,0 +1,27 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: rocketmq-consumer
+  datasource:
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+    url: jdbc:p6spy:mysql://localhost:3306/cloud_rocketmq?useSSL=false
+    username: root
+    password: root
+
+# RocketMQ配置
+rocketmq:
+  name-server: 127.0.0.1:9876
+
+# MyBatis配置
+mybatis:
+  type-aliases-package: cn.itcast.rocketmq.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 日志配置
+logging:
+  level:
+    cn.itcast.rocketmq: debug

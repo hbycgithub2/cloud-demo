@@ -1,0 +1,147 @@
+{
+  "info": {
+    "name": "RocketMQ Demo 测试集合",
+    "description": "RocketMQ 6大核心功能测试接口",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "场景1：普通消息 - 发送短信通知",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": 1001,\n  \"productName\": \"iPhone 15 Pro\",\n  \"price\": 7999.00,\n  \"quantity\": 1\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8090/message/send",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8090",
+          "path": ["message", "send"]
+        }
+      }
+    },
+    {
+      "name": "场景2：延迟消息 - 自动取消超时订单",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": 1002,\n  \"productName\": \"MacBook Pro\",\n  \"price\": 12999.00,\n  \"quantity\": 1\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8090/message/sendDelay",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8090",
+          "path": ["message", "sendDelay"]
+        }
+      }
+    },
+    {
+      "name": "场景3：事务消息 - 订单和库存一致性",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": 1003,\n  \"productName\": \"iPhone 15 Pro\",\n  \"price\": 7999.00,\n  \"quantity\": 2\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8090/message/sendTransaction",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8090",
+          "path": ["message", "sendTransaction"]
+        }
+      }
+    },
+    {
+      "name": "场景4：顺序消息 - 订单状态变更",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"orderNo\": \"ORD20260207123456789\",\n  \"status\": 1\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8090/message/sendOrderly",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8090",
+          "path": ["message", "sendOrderly"]
+        }
+      }
+    },
+    {
+      "name": "场景5：批量消息 - 批量发送优惠券",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userIds\": [1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010]\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8090/message/sendBatch",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8090",
+          "path": ["message", "sendBatch"]
+        }
+      }
+    },
+    {
+      "name": "场景6：消息过滤 - 只处理VIP订单",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": 1006,\n  \"productName\": \"AirPods Pro\",\n  \"price\": 1999.00,\n  \"quantity\": 1\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8090/message/sendVip",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8090",
+          "path": ["message", "sendVip"]
+        }
+      }
+    }
+  ]
+}
